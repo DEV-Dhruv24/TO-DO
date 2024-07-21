@@ -137,24 +137,30 @@ button.delete-btn:hover {
 
 @media (max-width: 480px) {
     .container {
-        padding: 15px;
+        padding: 10px; /* Reduced padding for tighter spacing */
     }
 
     input[type="text"] {
-        font-size: 14px;
+        font-size: 12px; /* Smaller font size for text inputs */
+        padding: 8px; /* Add padding for better touch interaction */
     }
 
     button {
-        padding: 10px 12px;
-        font-size: 14px;
+        padding: 8px 10px; /* Adjusted padding for smaller buttons */
+        font-size: 12px; /* Reduced font size for smaller buttons */
     }
 
     button.delete-btn {
-        font-size: 20px;
+        font-size: 16px; /* Smaller font size for delete button */
     }
 
     input.checkbox {
-        width: 20px;
-        height: 20px;
+        width: 16px; /* Reduced width */
+        height: 16px; /* Reduced height */
+    }
+
+    /* Additional adjustments for better spacing and layout */
+    .some-class { /* Add any other classes or elements needing adjustments */
+        margin: 5px; /* Reduced margin for better fit */
     }
 }
