@@ -134,32 +134,30 @@ button.delete-btn:hover {
     display: none;
     font-family: 'Lora', serif;
 }
+
 @media (max-width: 480px) {
     .container {
-        padding: 8px; /* Further reduced padding for a more compact look */
+        padding: 10px;
+    }
+    .container h1 {
+        font-size: 20px;
     }
 
     input[type="text"] {
-        font-size: 10px; /* Smaller font size for text inputs */
-        padding: 6px; /* Reduced padding for compact input fields */
+        font-size: 14px;
     }
 
     button {
-        padding: 6px 8px; /* Smaller padding for buttons */
-        font-size: 10px; /* Smaller font size for buttons */
+        padding: 10px 12px;
+        font-size: 9px;
     }
 
     button.delete-btn {
-        font-size: 14px; /* Smaller font size for delete button */
+        font-size: 20px;
     }
 
     input.checkbox {
-        width: 14px; /* Reduced width for smaller checkboxes */
-        height: 14px; /* Reduced height for smaller checkboxes */
-    }
-
-    /* Additional adjustments for better spacing and layout */
-    .some-class {
-        margin: 4px; /* Reduced margin for a more compact layout */
+        width: 20px;
+        height: 20px;
     }
 }
